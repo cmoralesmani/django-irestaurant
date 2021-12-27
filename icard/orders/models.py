@@ -1,7 +1,7 @@
 from django.db import models
 
 StatusEnum = (
-    ('PEDING', 'pending'),
+    ('PENDING', 'pending'),
     ('DELIVERED', 'delivered'),
 )
 
