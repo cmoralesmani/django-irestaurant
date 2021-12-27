@@ -1,7 +1,7 @@
 from django.db import models
 
 PaymentTypeEnum = (
-    ("CARD", "car"),
+    ("CARD", "card"),
     ("CASH", "cash"),
 )
 
