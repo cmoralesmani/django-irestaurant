@@ -1,4 +1,4 @@
-"""icard URL Configuration
+"""irestaurant URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -29,9 +29,9 @@ from payments.api.router import router_payments
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="iCard - ApiDoc",
+        title="iRestaurant - ApiDoc",
         default_version='v1',
-        description="Documentacion de la api de iCard",
+        description="Documentacion de la api de iRestaurant",
         terms_of_service="https://www.google.com/policies/terms/",
         contact=openapi.Contact(email="cmoralesmani@gmail.com"),
         license=openapi.License(name="BSD License"),
